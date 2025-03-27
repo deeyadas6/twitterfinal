@@ -134,7 +134,7 @@ Your Twitter Clone provides various essential features to create a fully interac
 
 Project Structure
 
-<!-- Uploading "Screenshot 2025-03-27 163030.png"... -->
+
 
 
 
