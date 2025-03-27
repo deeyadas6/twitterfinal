@@ -12,122 +12,166 @@ The key features of this Twitter Clone include:
 Pages and Their Roles
 The application is designed with multiple pages and components, each serving a distinct function in replicating the Twitter experience. Below is a detailed breakdown:
 1.	Home.jsx 
+
 •	Supports interactions like liking, retweeting, and replying to tweets.
 •	Provides a tweet input box for users to post new tweets.
 •	Allows navigate to various sections.
 •	Shows trending topics
 •	It bounds homesection.jsx,right.jsx and navigation.jsx
-2. Explore.jsx –.
+2. Explore.jsx 
+
 •	Users can explore viral tweets, and popular discussions.
-•	Helps users discover content beyond their usual following list.	
-2.	Community.jsx –
+•	Helps users discover content beyond their usual following list.
+
+3.	Community.jsx 
+
 •	Displays tweets from all users in a single feed.
 •	Focuses on public discussions rather than personalized feeds.
 •	Users can engage with tweets by liking, retweeting, or replying.
 •	Serves as a space for general conversations across the platform.
-3.	Message.jsx 
+
+4.	Message.jsx 
+
 •	Enables private conversations between users.
 •	Displays a list of recent chats.
-4.	Notification.jsx 
+
+5.	Notification.jsx
+   
 •	Displays notifications for interactions like:
 •	Likes, retweets, and replies.
 •	Mentions when other users tag them in tweets.
 •	Follow requests and other social updates.
 
-5.	Profile.jsx:
+6.	Profile.jsx:
  
 •	Displays user-specific content, including:
 •	Follower and following tweets.
 •	Personal bio and profile details.
 •	Users may have the option to edit their profile.
-7. ProfileModel.jsx 
+
+8. ProfileModel.jsx 
 •	A popup/modal component that quickly displays user profile details.
+
 8. ReplyModel.jsx 
 •	Manages tweet reply pop up.
+
 9. TweetDetails.jsx 
 •	Highlights engagement metrics like likes, and retweets,.
 •	Provides an interactive space for discussion around a specific tweet.
-11. Right.jsx – 
+
+11. Right.jsx 
 •	Displays the current trending topics and hashtags.
 •	Contains a search bar for users to find tweets and accounts.
 •	Offers personalized recommendations based on user interests.
-12. Data.jsx 
+
+13. Data.jsx 
 •	Stores structured user and tweet data.
 •	Manages metadata for tweet interactions like timestamps and engagement counts.
 •	Handles any predefined static content for rendering.
+
 Components and Their Roles
 The project is structured with reusable components to ensure modularity, maintainability, and scalability. Below is an in-depth look at each component and its function:
+
 1. Authentication Components
 These components handle user login, signup, and authentication across the app.
+
 •	Authentication.jsx
+
 o	Manages authentication logic for the entire application.
 o	Ensures users are properly logged in before accessing certain pages.
 o	Handles session management, token storage, and authentication state.
+
 •	Signin.jsx
+
 o	Provides a login page where users can enter their credentials.
 o	Validates username/email and password.
 o	Redirects users to the Home feed upon successful login.
+
 •	Signup.jsx
+
 o	Allows new users to register for an account.
 o	Collects details like username, email, and password.
 o	Ensures proper form validation before account creation.
+
 2. Navigation Components
 These components manage app-wide navigation and user movement between sections.
+
 •	Navigation.jsx
+
 o	The primary navigation bar of the application.
 o	Includes links to Home, Explore, Notifications, Messages, Profile, and more.
 o	Provides a consistent navigation experience across all pages.
+
 •	NavigationMenu.jsx
+
 o	A sidebar or dropdown menu for better navigation.
 o	Displays additional options like  Logout, 
 o	Enhances usability, especially for mobile users.
+
 3. Tweet Handling Components
 These components manage tweet creation, display, and interaction.
+
 •	TweetCard.jsx
+
 o	Displays tweets from other users in the feed.
 o	Shows profile pictures, tweet content, likes, retweets, and replies.
 o	Provides interaction options like liking.or retweeting
+
 •	TwitterCard.jsx
+
 o	Displays tweets posted by the current user.
 o	Allows the user to  delete or edit their tweets .
 o	Provides the same interaction options as TweetCard.
+
 4. Subscription Component
+
 This component manages premium features for users who subscribe to additional services.
+
 •	Subscription.jsx
 o	Handles premium subscription features for enhanced app access.
 o	Provides pricing details, feature descriptions, and upgrade options.
+
 Functionalities and Features
+
 Your Twitter Clone provides various essential features to create a fully interactive social media experience. Below are the key functionalities:
+
 1. User Authentication (Signup, Login, Logout)
+
 •	Signup: Allows new users to register with a username, email, and password.
 •	Login: Enables users to sign in securely using their credentials.
 •	Logout: Provides a logout option to end the session and secure user data.
 •	Session Management: Ensures users stay logged in and maintain authentication across sessions.
 
 2. Tweet Posting, Liking, and Retweeting, 
+
 •	Post Tweets: Users can compose and share tweets that appear on the feed.
 •	Like Tweets: Enables users to like posts, with a like counter updating in real time.
 •	Retweet: Allows users to reshare tweets to their followers.
 
 3. Search Functionality & Trending Topics
+
 •	Search Bar: Users can search for tweets, users, or hashtags.
 •	Trending Topics: A section displays popular hashtags and trending discussions.
 •	Personalized Discoverability: The explore section recommends trending tweets to users.
 
 4. Message Viewing
+
 •	Direct Messages: Users can view and engage in private chats.
 •	Chat History: Shows a list of previous conversations.
-.
+
 5. User Profile Management
+
 •	Profile Customization: Users can update their bio, profile picture, and personal info.
 •	View Your Tweets: Profile page displays all tweets, retweets, and replies made by the user.
 •	Follower & Following Count: Users can see their followers and people they follow.
 
 6. Easy Navigation
+
 •	Navigation Bar: Users can easily switch between sections like Home, Explore, Messages, and Notifications.
 •	Sidebar/Menu: Provides quick access to additional settings and options.
 
 7. Seamless User Experience
+
 •	Signup or Signin: Users can start using the app quickly by registering or logging in.
 •	Home Section: Displays the user's tweets and tweets from followed accounts.
 •	Viewing Other Tweets: Users can explore public tweets and interact with them.
@@ -138,11 +182,13 @@ Project Structure
 
 
 State Management & Data Flow
+
 •	useEffect & useCallback: Used for managing side effects and optimizing performance.
 •	Local State (useState): Used for handling small UI interactions (e.g., like toggling, post selection).
 •	Data Fetching: API calls using Axios to retrieve tweet details and user authentication data, mimicking a real social media platform.
 
 Styling & Theming
+
 •	Uses CSS Modules for scoped styles.
 •	Bootstrap is used for responsive styling and UI components.
 •	Material UI provides required icons and additional UI elements.
@@ -150,6 +196,7 @@ Styling & Theming
 •	Responsive design ensures usability across different screen sizes.
 
 Installation & Setup
+
 •	Clone the repository:
 git clone https://github.com/deeyadas6/twitterfinal.git
 cd twitterfinal
@@ -161,8 +208,11 @@ npm install
 npm run dev
 
 •	Build the project:
+
 npm run build
+
 •	Open the browser and visit:
+
 http://localhost:5173
 
 Additional Installations
