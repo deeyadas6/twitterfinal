@@ -70,6 +70,7 @@ The application is designed with multiple pages and components, each serving a d
 •	Handles any predefined static content for rendering.
 
 Components and Their Roles
+
 The project is structured with reusable components to ensure modularity, maintainability, and scalability. Below is an in-depth look at each component and its function:
 
 1. Authentication Components
@@ -178,7 +179,7 @@ Your Twitter Clone provides various essential features to create a fully interac
 
 Project Structure
 
-<!-- Uploading "Screenshot 2025-03-27 163030.png"... -->
+![Image](https://github.com/user-attachments/assets/cd83b3f1-4c3d-4487-8be7-285ac589b805)
 
 
 State Management & Data Flow
