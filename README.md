@@ -218,7 +218,9 @@ Styling & Theming
 Installation & Setup
 
 •	Clone the repository:
+
 git clone https://github.com/deeyadas6/twitterfinal.git
+
 cd twitterfinal
 
 •	Install dependencies:
