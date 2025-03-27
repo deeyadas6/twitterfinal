@@ -185,6 +185,10 @@ Frontend
 
 ![Image](https://github.com/user-attachments/assets/df1f2ed0-095f-4162-8042-b2dac3342cad)
 
+![Image](https://github.com/user-attachments/assets/6c6af5d0-b787-48f8-8af8-2847460166eb)
+
+![Image](https://github.com/user-attachments/assets/7ab87016-fb44-4aa4-9fe5-3a6c03b0a851)
+
 
 State Management & Data Flow
 
