@@ -132,47 +132,9 @@ Your Twitter Clone provides various essential features to create a fully interac
 •	Home Section: Displays the user's tweets and tweets from followed accounts.
 •	Viewing Other Tweets: Users can explore public tweets and interact with them.
 
-
-
 Project Structure
-📂 twitterfinal
-├── 📂 public
-├── 📂 src
-│   ├── 📂 components
-│   │   ├── 📂 Authentication
-│   │   │   ├── 📄 SignIn.jsx
-│   │   │   ├── 📄 SignUp.jsx
-│   │   │   ├── 📄 Logout.jsx
-│   │   ├── 📂 Navigation
-│   │   │   ├── 📄 Navigation.jsx
-│   │   │   ├── 📄 NavigationMenu.jsx
-│   │   ├── 📂 Pages
-│   │   │   ├── 📄 Community.jsx
-│   │   │   ├── 📄 Data.jsx
-│   │   │   ├── 📄 Explore.jsx
-│   │   │   ├── 📄 Home.jsx
-│   │   │   ├── 📄 HomeSection.jsx
-│   │   │   ├── 📄 Messages.jsx
-│   │   │   ├── 📄 Notifications.jsx
-│   │   │   ├── 📄 Profile.jsx
-│   │   │   ├── 📄 ProfileModel.jsx
-│   │   │   ├── 📄 ReplyModel.jsx
-│   │   │   ├── 📄 TweetCard.jsx
-│   │   │   ├── 📄 TwitterCard.jsx
-│   │   │   ├── 📄 TweetDetails.jsx
-│   │   │   ├── 📄 TwitterFeed.jsx
-│   │   ├── 📂 Subscription
-│   │   │   ├── 📄 Subscription.jsx
-│   ├── 🎨 App.css   
-│   ├── 📄 App.jsx
-│   ├── 📄 index.js
-│   ├── 📄 main.jsx
-│   ├── 🎨 index.css
-├── 📄 index.html
-├── 📦 package.json
-├── 📦 package-lock.json
-├── ⚙️ vite.config.js
-├── 📜 README.md
+
+<!-- Uploading "Screenshot 2025-03-27 163030.png"... -->
 
 
 
