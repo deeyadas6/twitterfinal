@@ -204,15 +204,21 @@ Frontend
 State Management & Data Flow
 
 •	useEffect & useCallback: Used for managing side effects and optimizing performance.
+
 •	Local State (useState): Used for handling small UI interactions (e.g., like toggling, post selection).
+
 •	Data Fetching: API calls using Axios to retrieve tweet details and user authentication data, mimicking a real social media platform.
 
 Styling & Theming
 
 •	Uses CSS Modules for scoped styles.
+
 •	Bootstrap is used for responsive styling and UI components.
+
 •	Material UI provides required icons and additional UI elements.
+
 •	Supports Dark Mode via global theme settings.
+
 •	Responsive design ensures usability across different screen sizes.
 
 Installation & Setup
