@@ -274,15 +274,25 @@ Conclusion
 This project is a frontend-only clone of X.com designed to simulate a real social media feed experience with authentication features.
 
 References
+
 To build this application, the following references and components were used:
+
 •	X.com: X Homepage - For UI references.
+
 •	Bootstrap: Bootstrap - For CSS libraries.
+
 •	Bootstrap Icons: Icons - For UI icons.
+
 •	React: React - For frontend development.
+
 •	React Router DOM: React Router - For routing.
+
 •	Material UI: Material UI - For icons and additional components.
+
 •	Axios: Axios - For data fetching.
+
 •	Formik & Yup: Formik & Yup - For form validation.
+
 •	Netlify/Vercel: Deployment - For hosting the application.
 
 
