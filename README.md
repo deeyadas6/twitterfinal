@@ -181,6 +181,10 @@ Project Structure
 
 ![Image](https://github.com/user-attachments/assets/cd83b3f1-4c3d-4487-8be7-285ac589b805)
 
+Frontend
+
+![Image](https://github.com/user-attachments/assets/df1f2ed0-095f-4162-8042-b2dac3342cad)
+
 
 State Management & Data Flow
 
