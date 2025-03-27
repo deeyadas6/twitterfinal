@@ -1,16 +1,27 @@
 Twitter
 
 Introduction
+
 This project is a frontend-only clone of X.com (formerly Twitter) built using Vite and React (JavaScript). It dynamically displays data using an API to mimic real-time interactions. The project focuses on UI/UX replication of X’s feed system, allowing for post rendering, filtering, user authentication, and basic state management.
+
 The key features of this Twitter Clone include:
+
 •	User Authentication: Users can log in and manage their profile information.
+
 •	Posting Tweets: Users can compose and share tweets, which will appear on the main feed.
+
 •	Liking & Retweeting: Users can engage with tweets by liking or retweeting them.
+
 •	Explore Section: A dedicated section where users can explore popular tweets.
+
 •	Searching: Users can search for specific hashtags, or trends.
+
 •	Responsive Design: The application is designed with Bootstrap, ensuring a seamless experience across different screen sizes and devices.
+
 Pages and Their Roles
+
 The application is designed with multiple pages and components, each serving a distinct function in replicating the Twitter experience. Below is a detailed breakdown:
+
 1.	Home.jsx 
 
 •	Supports interactions like liking, retweeting, and replying to tweets.
