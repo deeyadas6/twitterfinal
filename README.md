@@ -239,38 +239,54 @@ http://localhost:5173
 
 Additional Installations
 The following dependencies are required to run this project:
+
 •	React Router DOM for navigation:
 npm install react-router-dom
+
 •	Material UI for icons and UI components:
 npm install @mui/material @emotion/react @emotion/styled
+
 •	Bootstrap for styling:
 npm install bootstrap
+
 •	Formik & Yup for form validation:
 npm install formik yup
 
 Testing and Debugging
+
 Each module can be tested using Jest for rendering components and updating state variables.
 
 Deployment
+
 The project is deployed on Netlify/Vercel.
 
 Best Practices Followed
+
 •	State Management: Optimized use of useState, useEffect, and useCallback to manage component lifecycle and API calls efficiently.
+
 •	Code Splitting: Organized code into logical folders and separate files to improve maintainability.
+
 •	Error Handling: Implemented proper error handling in API calls to prevent app crashes.
+
 •	Performance Optimization: Lazy loading, memoization, and avoiding unnecessary re-renders using React’s built-in hooks.
+
 •	Responsive Design: Ensured mobile and desktop compatibility with CSS, Bootstrap, and Material UI.
 
 
 Repository link: 
+
 https://github.com/deeyadas6/twitterfinal.git
 
 Future Enhancements
+
 •	Implement backend support for real-time updates.
+
 •	Add advanced user profile customization.
+
 •	Implement interactive features like post comments, advanced filters, and real-time notifications.
 
 Conclusion
+
 This project is a frontend-only clone of X.com designed to simulate a real social media feed experience with authentication features.
 
 References
