@@ -137,7 +137,6 @@ Project Structure
 <!-- Uploading "Screenshot 2025-03-27 163030.png"... -->
 
 
-
 State Management & Data Flow
 •	useEffect & useCallback: Used for managing side effects and optimizing performance.
 •	Local State (useState): Used for handling small UI interactions (e.g., like toggling, post selection).
