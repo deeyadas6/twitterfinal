@@ -606,3 +606,386 @@ body.dark-mode {
   text-align: center;
   margin-bottom: 20px;
 }
+
+@media (min-width: 1025px) {
+  .nav-container {
+    width: 280px;
+  }
+
+  .middle-section {
+    margin-left: 280px;
+    max-width: 600px;
+  }
+
+  .right-section {
+    max-width: 400px;
+  }
+
+  .tweet-btn-container button {
+    width: 90%;
+  }
+
+  .home-container {
+    width: 80%;
+    max-width: 900px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-container {
+    width: 200px;
+  }
+
+  .middle-section {
+    margin-left: 200px;
+    max-width: 500px;
+  }
+
+  .right-section {
+    max-width: 300px;
+    padding: 10px;
+  }
+
+  .tweet-btn-container button {
+    width: 100%;
+  }
+
+  .home-container {
+    width: 90%;
+    max-width: 700px;
+  }
+
+  .tweet-card {
+    padding: 12px;
+  }
+
+  .profile-avatar {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tweet-input {
+    font-size: 1rem;
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .nav-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+    border-right: none;
+    border-bottom: 1px solid #e1e8ed;
+  }
+
+  .middle-section {
+    margin-left: 0;
+    max-width: 100%;
+  }
+
+  .right-section {
+    display: none; 
+  }
+
+  .tweet-btn-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tweet-btn-container button {
+    width: 100%;
+  }
+
+  .home-container {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .tweet-card {
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .profile-avatar {
+    width: 32px;
+    height: 32px;
+  }
+
+  .tweet-input {
+    font-size: 0.9rem;
+    padding: 8px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 1025px) {
+  .profile-container {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .profile-avatar {
+    width: 70px;
+    height: 70px;
+  }
+
+  .profile-name {
+    font-size: 1.5rem;
+  }
+
+  .tweet-input {
+    font-size: 1.2rem;
+    padding: 12px;
+  }
+
+  .tweet-btn {
+    width: 120px;
+    font-size: 1rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .twitter-card {
+    padding: 20px;
+    margin: 15px 0;
+  }
+
+  .icon-style {
+    font-size: 28px;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .profile-avatar {
+    width: 60px;
+    height: 60px;
+  }
+
+  .profile-name {
+    font-size: 1.2rem;
+  }
+
+  .tweet-input {
+    font-size: 1.1rem;
+    padding: 10px;
+  }
+
+  .tweet-btn {
+    width: 100px;
+    font-size: 0.9rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .twitter-card {
+    padding: 15px;
+    margin: 10px 0;
+  }
+
+  .icon-style {
+    font-size: 24px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .profile-container {
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+  }
+
+  .profile-avatar {
+    width: 50px;
+    height: 50px;
+  }
+
+  .profile-name {
+    font-size: 1rem;
+  }
+
+  .tweet-input {
+    font-size: 1rem;
+    padding: 8px;
+  }
+
+  .tweet-btn {
+    width: 100%;
+    font-size: 0.85rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .twitter-card {
+    padding: 12px;
+    margin: 8px 0;
+  }
+
+  .icon-style {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 1025px) {
+  .tweet-card {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+  }
+
+  .tweet-card:hover {
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  }
+
+  .username {
+    font-size: 1.2rem;
+  }
+
+  .text-muted {
+    font-size: 1.2rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px;
+  }
+
+  .icon-style {
+    font-size: 28px;
+  }
+
+  .content-container p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+
+  .more-options {
+    min-width: 50px;
+  }
+
+  .cursor-pointer {
+    cursor: pointer;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .tweet-card {
+    max-width: 90%;
+    padding: 18px;
+  }
+
+  .username {
+    font-size: 1.2rem;
+  }
+
+  .text-muted {
+    font-size: 1.1rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+  .icon-style {
+    font-size: 24px;
+  }
+
+  .content-container p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+  }
+
+  .more-options {
+    min-width: 40px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .tweet-card {
+    max-width: 95%;
+    padding: 15px;
+  }
+
+  .username {
+    font-size: 1.2rem;
+  }
+
+  .text-muted {
+    font-size: 1rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+
+  .icon-style {
+    font-size: 22px;
+  }
+
+  .content-container p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .more-options {
+    min-width: 35px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .tweet-card {
+    max-width: 100%;
+    padding: 12px;
+  }
+
+  .username {
+    font-size: 0.9rem;
+  }
+
+  .text-muted {
+    font-size: 0.9rem;
+  }
+
+  .tweet-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+  }
+
+  .icon-style {
+    font-size: 20px;
+  }
+
+  .content-container p {
+    font-size: 0.7rem;
+    line-height: 1.3;
+  }
+
+  .more-options {
+    min-width: 30px;
+  }
+}
